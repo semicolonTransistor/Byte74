@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC173
+D 4 bits D-type Register, 3 state out
+K TTL REG REG4 3State DFF
+$ENDCMP
+#
+$CMP 74HC283
+D 4 bits full Adder
+K TTL ADD Arith ALU
+$ENDCMP
+#
+#End Doc Library
