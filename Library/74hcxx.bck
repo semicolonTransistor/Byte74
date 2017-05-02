@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC157
+D Quad 2 to 1 line Multiplexer
+K TTL MUX MUX2
+$ENDCMP
+#
 $CMP 74HC173
 D 4 bits D-type Register, 3 state out
 K TTL REG REG4 3State DFF

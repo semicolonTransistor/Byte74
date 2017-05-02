@@ -1,0 +1,247 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:74hcxx
+LIBS:Byte74_ALU-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74HC32 U1061
+U 1 1 58FEE2D2
+P 4500 800
+F 0 "U1061" H 4500 850 50  0000 C CNN
+F 1 "74HC32" H 4500 750 50  0000 C CNN
+F 2 "" H 4500 800 50  0001 C CNN
+F 3 "" H 4500 800 50  0001 C CNN
+	1    4500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC32 U1061
+U 2 1 58FEE34C
+P 4500 1250
+F 0 "U1061" H 4500 1300 50  0000 C CNN
+F 1 "74HC32" H 4500 1200 50  0000 C CNN
+F 2 "" H 4500 1250 50  0001 C CNN
+F 3 "" H 4500 1250 50  0001 C CNN
+	2    4500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC32 U1061
+U 3 1 58FEE37E
+P 4500 1700
+F 0 "U1061" H 4500 1750 50  0000 C CNN
+F 1 "74HC32" H 4500 1650 50  0000 C CNN
+F 2 "" H 4500 1700 50  0001 C CNN
+F 3 "" H 4500 1700 50  0001 C CNN
+	3    4500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC32 U1061
+U 4 1 58FEE3A5
+P 4500 2150
+F 0 "U1061" H 4500 2200 50  0000 C CNN
+F 1 "74HC32" H 4500 2100 50  0000 C CNN
+F 2 "" H 4500 2150 50  0001 C CNN
+F 3 "" H 4500 2150 50  0001 C CNN
+	4    4500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC32 U1062
+U 1 1 58FEE3DB
+P 5850 1050
+F 0 "U1062" H 5850 1100 50  0000 C CNN
+F 1 "74HC32" H 5850 1000 50  0000 C CNN
+F 2 "" H 5850 1050 50  0001 C CNN
+F 3 "" H 5850 1050 50  0001 C CNN
+	1    5850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC32 U1062
+U 2 1 58FEE46A
+P 5850 1900
+F 0 "U1062" H 5850 1950 50  0000 C CNN
+F 1 "74HC32" H 5850 1850 50  0000 C CNN
+F 2 "" H 5850 1900 50  0001 C CNN
+F 3 "" H 5850 1900 50  0001 C CNN
+	2    5850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC32 U1062
+U 3 1 58FEE4A4
+P 7300 1450
+F 0 "U1062" H 7300 1500 50  0000 C CNN
+F 1 "74HC32" H 7300 1400 50  0000 C CNN
+F 2 "" H 7300 1450 50  0001 C CNN
+F 3 "" H 7300 1450 50  0001 C CNN
+	3    7300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC32 U1062
+U 4 1 58FEE53A
+P 4500 3950
+F 0 "U1062" H 4500 4000 50  0000 C CNN
+F 1 "74HC32" H 4500 3900 50  0000 C CNN
+F 2 "" H 4500 3950 50  0001 C CNN
+F 3 "" H 4500 3950 50  0001 C CNN
+	4    4500 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1700 5200 1700
+Wire Wire Line
+	5200 1700 5200 1800
+Wire Wire Line
+	5200 1800 5250 1800
+Wire Wire Line
+	5100 2150 5200 2150
+Wire Wire Line
+	5200 2150 5200 2000
+Wire Wire Line
+	5200 2000 5250 2000
+Wire Wire Line
+	5100 1250 5200 1250
+Wire Wire Line
+	5200 1250 5200 1150
+Wire Wire Line
+	5200 1150 5250 1150
+Wire Wire Line
+	5100 800  5200 800 
+Wire Wire Line
+	5200 800  5200 950 
+Wire Wire Line
+	5200 950  5250 950 
+Wire Wire Line
+	6450 1050 6600 1050
+Wire Wire Line
+	6600 1050 6600 1350
+Wire Wire Line
+	6600 1350 6700 1350
+Wire Wire Line
+	6450 1900 6600 1900
+Wire Wire Line
+	6600 1900 6600 1550
+Wire Wire Line
+	6600 1550 6700 1550
+Wire Wire Line
+	3900 700  3350 700 
+Wire Wire Line
+	3900 900  3350 900 
+Wire Wire Line
+	3900 1150 3350 1150
+Wire Wire Line
+	3900 1350 3350 1350
+Wire Wire Line
+	3900 1600 3350 1600
+Wire Wire Line
+	3900 1800 3350 1800
+Wire Wire Line
+	3900 2050 3350 2050
+Wire Wire Line
+	3900 2250 3350 2250
+Text Label 3500 700  0    60   ~ 0
+Input0
+Text Label 3500 900  0    60   ~ 0
+Input1
+Text Label 3500 1150 0    60   ~ 0
+Input2
+Text Label 3500 1350 0    60   ~ 0
+Input3
+Text Label 3500 1600 0    60   ~ 0
+Input4
+Text Label 3500 1800 0    60   ~ 0
+Input5
+Text Label 3500 2050 0    60   ~ 0
+Input6
+Text Label 3500 2250 0    60   ~ 0
+Input7
+Entry Wire Line
+	3250 600  3350 700 
+Entry Wire Line
+	3250 800  3350 900 
+Entry Wire Line
+	3250 1050 3350 1150
+Entry Wire Line
+	3250 1250 3350 1350
+Entry Wire Line
+	3250 1500 3350 1600
+Entry Wire Line
+	3250 1700 3350 1800
+Entry Wire Line
+	3250 1950 3350 2050
+Entry Wire Line
+	3250 2150 3350 2250
+Wire Bus Line
+	3250 600  3250 2350
+Wire Bus Line
+	3250 2350 3100 2350
+Text HLabel 3100 2350 0    60   Input ~ 0
+Input[7..0]
+Text HLabel 8150 1450 2    60   Output ~ 0
+~Zero
+Wire Wire Line
+	7900 1450 8150 1450
+Wire Wire Line
+	3900 4050 3800 4050
+Wire Wire Line
+	3800 3850 3800 4150
+Wire Wire Line
+	3800 3850 3900 3850
+Connection ~ 3800 4050
+$Comp
+L GND #PWR?
+U 1 1 58FEFFF7
+P 3800 4150
+F 0 "#PWR?" H 3800 3900 50  0001 C CNN
+F 1 "GND" H 3800 4000 50  0000 C CNN
+F 2 "" H 3800 4150 50  0001 C CNN
+F 3 "" H 3800 4150 50  0001 C CNN
+	1    3800 4150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

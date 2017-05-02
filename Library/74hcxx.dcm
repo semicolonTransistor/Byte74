@@ -15,4 +15,9 @@ D 4 bits full Adder
 K TTL ADD Arith ALU
 $ENDCMP
 #
+$CMP 74HC32
+D Quad Or 2 inputs
+K TTL Or2
+$ENDCMP
+#
 #End Doc Library
